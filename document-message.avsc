@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "DocumentMessage",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "source_data",
+      "type": "string"
+    },
+    {
+      "name": "Timestamp",
+      "type": "string"
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 {
-  "name": "bq-stream-mongodb",
+  "name": "mongodb-change-stream-to-pub-sub",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.mjs"
   },
   "keywords": [],
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@google-cloud/pubsub": "^3.2.0",
+    "avro-js": "^1.11.1",
+    "mongodb": "^4.11.0"
+  }
 }
